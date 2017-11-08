@@ -26,18 +26,24 @@ lots of code scattered across lots of files and in lots of languages.
 ## Finding Files by Name
 
  * `:e app/**/*cont<tab>` - built-in
- * `:Files` - find files with fzf, nmap this to something like ctrl-f
- * `:Buffers` - find buffers with fzf, nmap this to something like ctrl-b
- * `:sb pa<tab>` - split window to another buffer (e.g., pages_controller)
- * `:NERDTreeToggle` - open file tree browser, nmap this (I use <Leader>d)
+ * `:Files` - find files with fzf, nmap this to something like `ctrl-f`
+ * `:Buffers` - find buffers with fzf, nmap this to something like `ctrl-b`
+ * `:sb pa<tab>` - split window to another buffer (e.g., `pages_controller`)
+ * `:NERDTreeToggle` - open file tree browser, nmap this (I use `<Leader>d`)
 
 ## Finding Files by Contents
 
  * `:set grepprg=ag` - Use ag for grep from Vim
  * `:grep sidebar.pages` - Search for 'sidebar.pages'
- * `:copen / :cn / :cp / :cclose` - Navigate grep hits
+ * `:copen` / `:cn` / `:cp` / `:cclose` - Navigate grep hits
  * `nmap <c-n> :cn<cr>` - Move to the next search hit
  * `nmap <c-p> :cp<cr>` - Move to the previous search hit
+
+## Working with Splits/Windows/Buffers
+
+ * `ctrl-w n` / `:sp` - Make a new split
+ * `ctrl-w c` / `:q` - Close a split
+ * `^` - Toggle to the most recent buffer
 
 ## Working with Source
 
@@ -66,5 +72,7 @@ lots of code scattered across lots of files and in lots of languages.
 
  * `:Gstatus` - Show which files are changed / staged
  * (on status screen) `D` - View file diff
+ * (on status screen) `-` - Stage / Unstage file on that row
  * `:Gcommit` / `C` (in status split) - Commit and author message in-editor
+ * `:Gblame` - Run a `git blame` on the current file
 
