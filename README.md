@@ -13,7 +13,7 @@ lots of code scattered across lots of files and in lots of languages.
  * **vim-rails** - Rails tools
  * **vim-commentary** - Toggle comments quickly
  * **NERDTree** - File tree browser
- * **fzf** and **fzf.vim** - Wrapper for fzf
+ * **fzf** and **fzf.vim** - Wrapper for fzf (similar to ctrl-p)
 
 ## Extra Tools
 
@@ -55,13 +55,13 @@ lots of code scattered across lots of files and in lots of languages.
  * `ci(` / `ci"` - change inside delimiters
  * `gcc` / `[motion]gc` - comment/uncomment some lines
  * `V` / `ctrl-v` - Visual line / visual block
- * `"+y` - Yank to system clipboard
+ * `"+y` - Yank to system clipboard (MacVim native copy/paste works)
 
 ## Integrated Terminal
 
  * `:terminal` - nmap this to something like <Leader>t
  * `ctrl-w _` / `ctrl_w =` - maximize / equalize splits
- * `:res +5` / `:res -5` - resize splits by an amount; nmap this
+ * `:res +5` / `:res -5` - resize splits by an amount; nmap this to `-` and `+`
  * combined with ag and entr, auto test runner on save
 
 ## Using vim-rails
@@ -83,6 +83,6 @@ lots of code scattered across lots of files and in lots of languages.
  * Set up `.vimrc` for 256 colors at terminal
  * `:set mouse=a` gives scroll-wheel in terminal
  * `:set paste` / `:set nopaste` for pasting without wacky indentation
- * Check out MacVim for `cmd-s`, `cmd-c`, handy app/window switching
+ * Check out MacVim for `cmd-s`, `cmd-c`, `cmd-w`, handy app/window switching
  * Set up `mvim` shortcut to open mvim in a working directory
 
