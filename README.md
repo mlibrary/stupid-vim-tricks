@@ -59,7 +59,8 @@ lots of code scattered across lots of files and in lots of languages.
 ## Integrated Terminal
 
  * `:terminal` - nmap this to something like <Leader>t
- * `ctrl-w` - / `ctrl_w` + - resize splits
+ * `ctrl-w _` / `ctrl_w =` - maximize / equalize splits
+ * `:res +5` / `:res -5` - resize splits by an amount; nmap this
  * combined with ag and entr, auto test runner on save
 
 ## Using vim-rails
@@ -75,4 +76,11 @@ lots of code scattered across lots of files and in lots of languages.
  * (on status screen) `-` - Stage / Unstage file on that row
  * `:Gcommit` / `C` (in status split) - Commit and author message in-editor
  * `:Gblame` - Run a `git blame` on the current file
+
+## Odds and Ends
+
+ * Set up `.vimrc` for 256 colors at terminal
+ * `:set mouse=a` gives scroll-wheel in terminal
+ * `:set paste` / `:set nopaste` for pasting without wacky indentation
+ * Check out MacVim for `cmd-s`, `cmd-c`, handy app/window switching
 
