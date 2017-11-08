@@ -18,8 +18,9 @@ lots of code scattered across lots of files and in lots of languages.
 ## Extra Tools
 
  * **ag** - The Silver Searcher (`brew install the_silver_searcher`)
- * **fzf** - General-purpose fuzzy finder (brew install fzf)
- * **entr** - File watcher / re-runner
+ * **fzf** - General-purpose fuzzy finder (`brew install fzf`)
+ * **entr** - File watcher / re-runner (`brew install entr`)
+ * **Consolas** - A nice font that behaves well with anti-aliasing
  * `alias ae='ag -l | entr -c'`
  * `alias aer='ag -l | entr -c rspec'`
 
