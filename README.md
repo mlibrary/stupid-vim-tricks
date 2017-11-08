@@ -83,4 +83,5 @@ lots of code scattered across lots of files and in lots of languages.
  * `:set mouse=a` gives scroll-wheel in terminal
  * `:set paste` / `:set nopaste` for pasting without wacky indentation
  * Check out MacVim for `cmd-s`, `cmd-c`, handy app/window switching
+ * Set up `mvim` shortcut to open mvim in a working directory
 
